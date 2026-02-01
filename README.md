@@ -1,40 +1,33 @@
-# HB IMMERSIVE 🌌
+HBIMMERSIVE-PORTFOLIO/
+├── README.md
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── FEATURES.md
+│   ├── MARKETING.md
+│   └── ROADMAP.md
+├── screenshots/
+│   ├── fr/
+│   └── en/
+├── videos/
+├── assets/
+│   ├── logo.png
+│   ├── banner.png
+│   └── favicon.ico
+├── site/          ← si tu as un mini-site web HTML/CSS
+│   ├── index.html
+│   ├── css/
+│   ├── js/
+│   └── assets/
+├── netlify.toml   ← obligatoire pour éviter les 404
+└── .gitignore[build]
+  publish = "site"   # ou "." si index.html à la racine
+  command = ""
 
-HB IMMERSIVE est une plateforme immersive dédiée à la **réalité augmentée (AR)** et aux **hologrammes 3D**, transformant les smartphones en outils de projection visuelle futuriste.
-
----
-
-## 🚀 Fonctionnalités principales
-
-- 📱 Réalité augmentée native (ARCore)
-- 🧊 Projection d’hologrammes 3D interactifs
-- 🎥 Enregistrement vidéo AR fluide
-- 🌐 Interface futuriste et responsive
-- 🔒 Mode Premium avec contenus avancés
-
----
-
-## 🧠 Vision
-
-Rendre la réalité augmentée accessible à tous :  
-créateurs, ingénieurs, étudiants, éducateurs et innovateurs.
-
----
-
-## 🌍 Déploiement
-
-Site statique hébergé sur **Netlify**  
-Configuration : `netlify.toml`
-
----
-
-## 📲 Application mobile
-
-👉 https://play.google.com/store/apps/details?id=com.hb.immersive.pro
-
----
-
-## ⚠️ Licence
-
-© 2026 **HB IMMERSIVE**  
-Projet propriétaire — toute reproduction ou utilisation non autorisée est interdite.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200## 📂 Documentation Technique
+- [Architecture détaillée](docs/ARCHITECTURE.md)
+- [Liste complète des fonctionnalités](docs/FEATURES.md)
+- [Stratégie marketing](docs/MARKETING.md)
+- [Feuille de route 2026-2027](docs/ROADMAP.md)
